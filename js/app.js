@@ -34,7 +34,6 @@ function ready(){
 
     let cartBtn = document.getElementById('cartBtn').addEventListener('click', cartBtnToogle);
 
-    searchBtn.addEventListener('click', searchProducts);
 };
 
 //functions
@@ -138,6 +137,8 @@ function searchProducts() {
         searchBox.value = '';
     }
 };
+
+searchBtn.addEventListener('click', searchProducts);
 
 
 
